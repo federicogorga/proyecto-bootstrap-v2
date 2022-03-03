@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,CAAC;EACL,KAAK,EAHE,KAAK;EAIZ,MAAM,EAJC,KAAK;EAKZ,YAAY,EAAE,GAAG;CACpB",
+    "sources": [
+        "personalizacion.scss"
+    ],
+    "names": [],
+    "file": "personalizacion.css"
+}
