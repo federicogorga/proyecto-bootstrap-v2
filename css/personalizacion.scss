@@ -1,8 +1,39 @@
 
 $basesize: 200px;
 
-.a,.b,.c {
+.a {
     width: $basesize;
     height: $basesize;
     margin-right: 3px;
 }
+
+img {
+height: 150px;
+width: 150px;
+
+}
+
+$fontbold: 
+
+("lightbold": 300, "medium": 500, "heavy": 700);
+
+h1 {
+font-weight: map-get($map: $fontbold, $key: "heavy" );
+
+}
+
+@mixin backgroundandfontcolor {
+    background-color: lightsalmon;
+    color: black;
+    
+}
+
+.container-fluid { 
+@include backgroundandfontcolor
+
+}
+
+.b,.c {
+    @extend .a;
+    
+    }

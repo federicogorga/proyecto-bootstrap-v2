@@ -1,14 +1,20 @@
-
-
-
 .a, .b, .c {
-    width: 200px;
-    height: 200px;
-    margin-right: 3px;
+  width: 200px;
+  height: 200px;
+  margin-right: 3px;
 }
 
 img {
-  width: 150px;
   height: 150px;
-
+  width: 150px;
 }
+
+h1 {
+  font-weight: 700;
+}
+
+.container-fluid {
+  background-color: lightsalmon;
+  color: black;
+}
+/*# sourceMappingURL=personalizacion.css.map */
